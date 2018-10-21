@@ -1,0 +1,18 @@
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.airwallex.ssoserver
+# freemarker 默认路径就是下面的配置，所以可以不配
+
+
+spring:
+  datasource:
+    driverClassName: "org.postgresql.Driver"
+    url: jdbc:postgresql://localhost:5432/user
+    username: postgres
+    password: postgres
+
+  freemarker:
+    suffix: .ftl
+#    template-loader-path: classpath:/templates/

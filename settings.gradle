@@ -1,0 +1,6 @@
+rootProject.name = 'sso'
+include 'server1'
+include 'server2'
+include 'sso-server'
+include 'sso-client'
+include 'common'
